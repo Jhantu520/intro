@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(developer.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: auto;
+    padding-top: px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+    font-weight: 400;
+}
+.black_box{
+    background-color: black;
+    padding:20px;
+}
+.black_box h2{
+    font-weight: 400px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.black{
+    font-size: 96px;
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    margin-top: 23px;
+    margin-left: 50px;
+}
+.card{
+    max-width: 320px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 4px gray;
+    margin-bottom: 20px;
+    transition: 0.1 ease-in;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.card_container h3{
+    padding-bottom: 10px;
+}
+.buttom{
+    display: flex;
+}
+.contact{
+    background-color: rgb(55, 70, 4);
+}
+.about{
+    background-color: rgb(75, 13, 33);
+}
+.contact,.about{
+    min-height: 80px;
+    padding: 20px;
+    color: white;
+}
+.contact p ,.about p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.contact h2 ,.about h2{
+    font-size: 45px;
+    font-weight: 800;
+}
